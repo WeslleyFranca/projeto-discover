@@ -29,6 +29,8 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    
+    height: 100vh;
 }
 
 body * {
@@ -163,4 +165,14 @@ footer {
 
 footer a:hover {
     color: #8257E5;
+}
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
