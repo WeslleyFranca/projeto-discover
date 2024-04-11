@@ -175,11 +175,6 @@ footer a:hover {
     color: #8257E5;
 }
 
-footer span {
-    color: #a486e9;
-    font-weight: 700;
-}
-
 @media (min-width: 700px) {
     :root {
         --bg-url: url(./assets/bg-desktop.jpg);
